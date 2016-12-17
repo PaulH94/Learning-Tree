@@ -84,6 +84,10 @@ public class Main{
 		System.out.println(yo);
 		System.out.println("------------------------");
 		System.out.println(mostGain(example));
+		System.out.println("------------------------");
+		Dtree d = new Dtree(example);
+		d.newlvl();
+		d.displaytree();
 		//System.out.println(sysepy(example));
 	}
 
